@@ -16,7 +16,7 @@
 title: Alec Burton
 email: mail@alecburton.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Senior Developer specialising in Java and Spring Boot. Will also blog about Docker, Agile and Kotlin.
+  Tales of Java, Spring Boot, Agile product development and Docker (amongst other things).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alecburton.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AlecJBurton
