@@ -1,6 +1,8 @@
 # Personal Jekyll Blog
 
-Personal blog powered by Jekyll. 
+Personal website with blog, powered by [Jekyll](https://jekyllrb.com). 
 
-[Cayman Blog theme](https://github.com/lorpirri/cayman-blog)
+See it live [here](http://alecburton.co.uk).
+
+Theme created from the [Cayman Blog theme](https://github.com/lorpirri/cayman-blog).
 
