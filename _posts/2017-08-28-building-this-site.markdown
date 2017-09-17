@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Building a blog with Jekyll"
 date:   2017-08-28 12:01:22 +0100
 categories: web html jekyll 
