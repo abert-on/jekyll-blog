@@ -18,14 +18,18 @@
     {% else %}
       <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape| truncate: 200 }}">
     {% endif %}
+        <meta name="twitter:image" content="http://alecburton.co.uk{{ page.thumbnail }}">
+    {% if page.thumbnail %}
 
-    <meta name="twitter:image" content="http://alecburton.co.uk/assets/images/blog.png">
+    {% else %}
+        <meta name="twitter:image" content="http://alecburton.co.uk/assets/images/blog.png">
+    {% endif %}
 
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}" />
     <meta property="og:site_name" content="Alec Burton">
     <meta property="article:publisher" content="http://www.facebook.com/mcttanglewood" />
     <meta property="article:author" content="https://www.facebook.com/mcttanglewood" />

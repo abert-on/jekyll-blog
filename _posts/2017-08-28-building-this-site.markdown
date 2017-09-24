@@ -3,7 +3,8 @@ layout: post
 comments: true
 title:  "Building a blog with Jekyll"
 date:   2017-08-28 12:01:22 +0100
-categories: web html jekyll 
+categories: web html jekyll blog
+thumbnail: /assets/images/blog.png
 ---
 ## Jekyl
 I've wanted to a personal website for a while now. Something for sharing my thoughts and findings beyond my usual day-to-day development work. 
