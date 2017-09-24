@@ -5,7 +5,7 @@ title:  "Adding Comments to a Static Site"
 date:   2017-09-17 16:06:22 +0100
 categories: web html jekyll disqus static blog
 ---
-# Comments
+## Comments
 One of the downsides of having a static site is that you cannot add anything that would require any data storage. For a blog, the most notable absense is of any form of comments section. Fortunately there are thrid party providers that can provide comments sections for sites. [Disqus](https://disqus.com) is one such provider that also supports Jekyll.
 
 
