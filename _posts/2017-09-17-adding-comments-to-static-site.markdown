@@ -6,11 +6,11 @@ date:   2017-09-17 16:06:22 +0100
 categories: web html jekyll disqus static blog
 thumbnail: /assets/images/comments.png
 ---
-## Comments
+### Comments
 One of the downsides of having a static site is that you cannot add anything that would require any data storage. For a blog, the most notable absense is of any form of comments section. Fortunately there are thrid party providers that can provide comments sections for sites. [Disqus](https://disqus.com) is one such provider that also supports Jekyll.
 
 
-## Installation
+### Installation
 Once you have signed up to Disqus, it walks you through configuring your site with a comments section. For Jekyll the steps are as follows:
 
 For any post that you want to include comments, add a comments variable to the header of the posts YAML file. For this post, for example, it looks like the following:
@@ -51,7 +51,7 @@ jekyll serve
 You should now see something similar to the following:
 ![The Results](/assets/images/comments.png)
 
-## Comment Counts
+### Comment Counts
 One additional extra we can add is comment counts to the top of the post. Open **_layouts/default.html** and add the following befote the closing body tag.
 
 {% highlight html %}

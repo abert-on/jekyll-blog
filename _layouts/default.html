@@ -18,9 +18,8 @@
     {% else %}
       <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape| truncate: 200 }}">
     {% endif %}
-        <meta name="twitter:image" content="http://alecburton.co.uk{{ page.thumbnail }}">
     {% if page.thumbnail %}
-
+        <meta name="twitter:image" content="http://alecburton.co.uk{{ page.thumbnail }}">
     {% else %}
         <meta name="twitter:image" content="http://alecburton.co.uk/assets/images/blog.png">
     {% endif %}
