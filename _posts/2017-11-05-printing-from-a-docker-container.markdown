@@ -10,7 +10,7 @@ thumbnail: /assets/images/cups_logo.png
 Printing from a Docker Container!? Why would someone want to do that? 
 Well it turns our that as part of a "Document Production" system we had within our application, it was possible to configure automatic print jobs from the mid-tier of our application. 
 
-We had not long moved our development and integration environments over to Docker and, utilising Jenkins multi-branch pipelines, we had the ability to spin identical Docker environments up on for each branch of the application that we had in Git. 
+We had not long moved our development and integration environments over to Docker and, utilising Jenkins multi-branch pipelines, we had the ability to spin up identical Docker environments for each branch of the application that we had in Git. 
 
 The next step was to provision a QA environment from the master branch using the same system. To prove that the environment would be adequate for QA testing, we had to prove that we could accomodate a few of the more "interesting" scenarios in our QA regression test suite. Of course one of these scenarios was automatically printing documents from the mid-tier.
 
