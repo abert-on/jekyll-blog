@@ -6,8 +6,8 @@ date:   2017-08-28 12:01:22 +0100
 categories: web html jekyll blog
 thumbnail: /assets/images/blog.png
 ---
-### Jekyl
-I've wanted to a personal website for a while now. Something for sharing my thoughts and findings beyond my usual day-to-day development work. 
+### Jekyll
+I've wanted to keep a personal website for a while now. Something for sharing my thoughts and findings beyond my usual day-to-day development work. 
 
 The number of options for doing this seemed a little overwhelming. Go with a big, popular CMS product such as WordPress? Or write something more tailored to my needs using past experiences with Spring Boot and Thymeleaf? Eventually I stumbled across [Jekyll](https://jekyllrb.com). It seemed pretty easy to generate blog-aware pages from it, whilst also allowing a good deal of flexibility. The fact that it generates completely static websites with no database required was a bonus in terms of hosting options. 
 
